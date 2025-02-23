@@ -1,6 +1,42 @@
 'use client';
 
-// ... (keep imports)
+import { useState } from 'react';
+import { StarIcon, MapPinIcon, PhoneIcon, CalendarIcon, UserGroupIcon, CurrencyDollarIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import { motion } from 'framer-motion';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+const mockSalons = [
+  {
+    id: 1,
+    name: "Salon Elite",
+    description: "Le meilleur salon de coiffure de Kinshasa",
+    address: "123 Avenue de la Paix, Kinshasa",
+    phone: "+243 123 456 789",
+    rating: 4.8,
+    reviewCount: 128,
+    openNow: true,
+    priceRange: "15$ - 80$",
+    staff: 8,
+    specialities: ["Coupe", "Coiffure", "Coloration"],
+    image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
+  },
+  {
+    id: 2,
+    name: "Beauty Corner",
+    description: "Votre beauté est notre priorité",
+    address: "45 Boulevard du 30 Juin, Kinshasa",
+    phone: "+243 987 654 321",
+    rating: 4.5,
+    reviewCount: 96,
+    openNow: true,
+    priceRange: "20$ - 100$",
+    staff: 12,
+    specialities: ["Tresse", "Tissage", "Soins"],
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
+  }
+];
 
 export default function SalonsPage() {
   return (

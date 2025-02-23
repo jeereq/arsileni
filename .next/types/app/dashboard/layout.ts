@@ -1,4 +1,4 @@
-// File: /home/project/src/app/dashboard/layout.tsx
+// File: /home/work/Documents/GitHub/arsyleni/src/app/dashboard/layout.tsx
 import * as entry from '../../../../src/app/dashboard/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
