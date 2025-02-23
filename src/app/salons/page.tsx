@@ -35,6 +35,62 @@ const mockSalons = [
     staff: 12,
     specialities: ["Tresse", "Tissage", "Soins"],
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
+  },
+  {
+    id: 2,
+    name: "Beauty Corner",
+    description: "Votre beauté est notre priorité",
+    address: "45 Boulevard du 30 Juin, Kinshasa",
+    phone: "+243 987 654 321",
+    rating: 4.5,
+    reviewCount: 96,
+    openNow: true,
+    priceRange: "20$ - 100$",
+    staff: 12,
+    specialities: ["Tresse", "Tissage", "Soins"],
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
+  },
+  {
+    id: 2,
+    name: "Beauty Corner",
+    description: "Votre beauté est notre priorité",
+    address: "45 Boulevard du 30 Juin, Kinshasa",
+    phone: "+243 987 654 321",
+    rating: 4.5,
+    reviewCount: 96,
+    openNow: true,
+    priceRange: "20$ - 100$",
+    staff: 12,
+    specialities: ["Tresse", "Tissage", "Soins"],
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
+  },
+  {
+    id: 2,
+    name: "Beauty Corner",
+    description: "Votre beauté est notre priorité",
+    address: "45 Boulevard du 30 Juin, Kinshasa",
+    phone: "+243 987 654 321",
+    rating: 4.5,
+    reviewCount: 96,
+    openNow: true,
+    priceRange: "20$ - 100$",
+    staff: 12,
+    specialities: ["Tresse", "Tissage", "Soins"],
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
+  },
+  {
+    id: 2,
+    name: "Beauty Corner",
+    description: "Votre beauté est notre priorité",
+    address: "45 Boulevard du 30 Juin, Kinshasa",
+    phone: "+243 987 654 321",
+    rating: 4.5,
+    reviewCount: 96,
+    openNow: true,
+    priceRange: "20$ - 100$",
+    staff: 12,
+    specialities: ["Tresse", "Tissage", "Soins"],
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=300&q=80"
   }
 ];
 
