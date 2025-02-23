@@ -1877,6 +1877,10 @@ body {
     padding-bottom: 4rem;
   }
 
+  .sm\:pt-12 {
+    padding-top: 3rem;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
