@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  h3 {
+    @apply text-2xl font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-purple-600 text-white px-6 py-3 rounded-lg font-medium 
+           hover:bg-purple-700 transition-colors duration-300 
+           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-purple-700 px-6 py-3 rounded-lg font-medium 
+           hover:bg-purple-50 transition-colors duration-300 
+           focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-custom p-6 
+           hover:shadow-custom-lg transition-shadow duration-300;
+  }
+
+  .input {
+    @apply mt-1 block w-full rounded-md border-gray-300 shadow-sm 
+           focus:border-purple-500 focus:ring focus:ring-purple-200 focus:ring-opacity-50;
+  }
+
+  .heading-1 {
+    @apply text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl;
+  }
+
+  .heading-2 {
+    @apply text-3xl font-extrabold text-gray-900 sm:text-4xl;
+  }
+
+  .heading-3 {
+    @apply text-2xl font-bold text-gray-900;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-900;
+  }
+}
